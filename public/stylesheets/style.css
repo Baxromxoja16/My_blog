@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.navbar-collapse {
+  flex-grow: inherit !important;
+}
+
+.navbar-brand {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 0px !important;
+  line-height: 1 !important;
+  font-family: "Raleway", Helvetica, Arial, sans-serif !important;
+  font-size: 23px !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  color: #000000 !important;
+  vertical-align: middle !important;
+  font-weight: 600 !important;
+  margin-top: 10px !important;
+}
+
+.navbar_brand_text {
+  font-size: 12px !important;
+  line-height: 14px !important;
+  margin-bottom: 0 !important;
+  color: #000000 !important;
+}
+
+.navbar {
+  padding-top: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  box-shadow: 0 5px 10px 0 rgb(50 50 50 / 6%) !important;
+  box-shadow: none !important;
+}
+
+.alar {
+  color: #333333 !important;
+  font-family: "Raleway", Helvetica, Arial, sans-serif !important;
+  padding-left: 17px !important;
+  padding-right: 17px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  zoom: 1 !important;
+  letter-spacing: 1px !important;
+}
+
+.lilar {
+  margin: 20px !important;
+}
+
+.img {
+  transition: .3s !important;
+}
+
+.img:hover {
+  opacity: .5 !important;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.card-title {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.malumot {
+  color: #03c4eb !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.2px !important;
+}
+
+.alar {
+  color: #333333 !important;
+}
+
+.alar:hover {
+  color: #03c4eb !important;
+  text-decoration: underline !important;
+}
+
+
+.dataTime {
+  color: #03c4eb !important;
+}
+
+.internet {
+  font-size: 22px !important;
+  line-height: 1.5 !important;
+  margin-bottom: 7px !important;
+  color: #000 !important;
+}
+
+.internet:hover {
+  color: #777777 !important;
+  text-decoration: none !important;
+}
+
+.posted-on {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  line-height: 1.7 !important;
+}
+
+.data {
+  margin-bottom: 25px !important;
+}
+
+/* .before::before {
+  content: "";
+  display: inline-block !important;
+  width: 1px !important;
+  height: 100% !important;
+  background-color: #777777 !important;
+} */
+
+.maqolalarTitle {
+  font-size: 15px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 13px !important;
+  font-weight: 700 !important;
+}
+
+.margin {
+  margin: 30px !important;
+}
+
+.server {
+  color: #777777 !important;
+  font-size: 14px !important;
+}
+
+
+.server:hover {
+  color: #03c4eb !important;
+  text-decoration: underline !important;
+}
+
+.server1 {
+  color: #777777 !important;
+  font-size: 14px !important;
+  display: block !important;
+  width: 240px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.server1:hover {
+  color: #03c4eb !important;
+  text-decoration: underline !important;
+}
+
+.php {
+  color: #777777 !important;
+  font-size: 14px !important;
+  margin-top: 10px !important;
+}
+
+.php:hover {
+  color: #03c4eb !important;
+  text-decoration: underline !important;
+}
+
+.teoreya {
+  color: #777777 !important;
+  font-size: 14px !important;
+  margin-top: 10px !important;
+}
+
+.myBlogHr {
+  width: 240px !important;
+  margin-left: 30px !important;
+}
+
+.login-box {
+  margin: 10% auto;
+}
+
+.register-box {
+  margin: 10% auto;
+}
+
+.titleBox {
+  margin-top: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px;
+}
+
+.titleBox:hover {
+  background: whitesmoke;
+}
+
+.titleBox .img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.titleBox .imgBox {
+  padding: 0;
+}
+
+.before {
+  display: flex;
+  max-width: inherit !important;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.before:hover {
+  background: whitesmoke;
+}
+
+.maqolaText {
+  max-height: 5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 0;
+}
+
+footer {
+  background: black;
+  height: 280px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer .yangi {
+  margin: 0 50px;
+  width: 200px;
+}
+
+.footer .footer_title {
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer_item {
+  padding: 0;
+}
+
+.footer .yangi ul {
+  padding: 0;
+}
+
+.footer .yangi ul li a {
+  color: #fff;
+}
+
+.footer_link {
+  color: #fff;
+}
+
+.maqolaTanlangan .fas {
+  display: none;
+}
+
+.maqolaTanlangan {
+  height: 16px;
+}
+
+
+.titleBox .boxItem {
+  padding: 5px;
+}
+
+
+.categoryIdTitle {
+  position: absolute;
+  top: 10px;
+  right: -126px;
+}
+
+.internet {
+  max-height: 2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 0;
+}
+
+.titleBox .boxItem .malumot {
+  max-height: 2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 0;
+}
+
+.yangi .maqola_link {
+  max-height: 1.7rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 0;
+}
+
+.footer .yangi .maqola_link {
+  max-height: 1.7rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 0;
+}
+
+
+.card .card-title .box .btn {
+  margin-top: 15px;
+}
+
+.maqolaColamun {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+
+/* ============================ Media */
+
+/* 1200 < x < 1400 */
+@media (max-width: 1399px) {}
+
+/* 992  < x < 1199 */
+@media (max-width: 1199px) {
+  .categoryIdTitle {
+    right: -100px;
+  }
+}
+
+/* 768  < x < 991 */
+@media (max-width: 991px) {
+  /* .navbar .container-fluid {
+    padding: 0 137px;
+  } */
+  .navbar-nav .nav-link{
+    padding-left: 0 !important;
+  }
+  .navbar .navbar-collapse .navbar-nav .lilar {
+    margin: 0 !important;
+  }
+}
+
+/* 576  < x < 767 */
+@media (max-width: 767px) {}
+
+/* 320  < x < 575 */
+@media (max-width: 575px) {}

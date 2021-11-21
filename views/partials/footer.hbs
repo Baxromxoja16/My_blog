@@ -1,0 +1,46 @@
+<footer>
+    <div class="container">
+        <div class="footer">
+            <!-- Main Footer -->
+            <ul class="footer_item">
+                <h5 class="footer_title">Menyu</h5>
+                <li class="footer_li">
+                    <a class="footer_link" aria-current="page" href="#">Loyiha haqida</a>
+                </li>
+                <li class="footer_li">
+                    <a class="footer_link" href="#!">Bo'limlar</a>
+                </li>
+                <li class="footer_li">
+                    <a class="footer_link" href="/auth/login">Kirish</a>
+                </li>
+                <li class="footer_li">
+                    <a class="footer_link" href="/auth/register">Ro’yhatdan o’tish</a>
+                </li>
+            </ul>
+            <div class="yangi">
+                <h5 class="footer_title ">Yangi maqolalar</h5>
+                <ul>
+                    {{#each maqola}}
+                    <li><a href="/maqolaView/{{id}}" class="maqola_link">{{maqolaTitle}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+            <ul class="footer_item">
+                <h5 class="footer_title">Kontakt</h5>
+                <li class="footer_li">
+                    <a class="footer_link" href="https://www.instagram.com/baxromxoja16"><i
+                            class="fab fa-instagram"></i>
+                        Intagram</a>
+                </li>
+                <li class="footer_li">
+                    <a class="footer_link" href="https://t.me/Aglamkhujaev"><i class="fab fa-telegram-plane"></i>
+                        Telegram</a>
+                </li>
+                <li class="footer_li">
+                    <a class="footer_link" href="#!">Number: +998936029545</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="/script.js"></script>

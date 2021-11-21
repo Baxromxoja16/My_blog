@@ -1,0 +1,21 @@
+<div class="d-flex flex-wrap">
+    {{#if maqola.length}}
+    {{#each maqola}}
+    <div class="col-lg-4">
+        <div class="card text-center" style="padding: 20px;">
+            <div class="card-title">
+                <div class="box">
+                    <h4>{{maqolaTitle}}</h4>
+                    <p>{{maqolaText}}</p>
+                    <img src="/images/{{img}}" alt="png" style="width: 300px;">
+                </div>
+                <div class="box">
+                    <a href="/admin/maqola/delete/{{id}}" class="btn btn-danger">O'chirish</a>
+                    <a href="/admin/maqola/edit/{{id}}" class="btn btn-warning">O'zgartirish</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    {{/if}}
+</div>

@@ -1,0 +1,21 @@
+<div class="d-flex">
+  {{#if categories.length}}
+
+  {{#each categories}}
+  <div class="col-lg-2">
+    <div class="card text-center" style="height: 200px; padding: 15px">
+      <div class="card-title">
+        <div class="box">
+          <a href="/admin/category/read/{{id}}">{{categoryTitle}}</a>
+        </div>
+        <div class="box">
+          <a href="/admin/category/delete/{{id}}" class="btn btn-danger">O'chirish</a>
+          <a href="/admin/category/edit/{{id}}" class="btn btn-warning">O'zgartirish</a>
+          <a href="/admin/maqola/read" class="btn btn-success">Maqola ko`rish</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+  {{/if}}
+</div>

@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-8 maqolaColamun">
+        {{#if maqola.length}}
+        {{#each maqola}}
+        <div class="titleBox d-flex">
+            <div class="col-3 imgBox" style="margin-right: 50px !important;">
+                <a href="/maqolaView/{{id}}"><img src="images/{{img}}" alt="" class="img" width="100%"></a>
+            </div>
+            <div class="col-6 boxItem" style="margin-right: 30px !important;">
+                <div>
+                    <a href="/maqolaView/{{id}}" class="malumot a">{{maqolaTitle}} </a>
+                    <a href="/maqolaView/{{id}}">
+                        <h2 class="internet">{{maqolaTitle}}</h2>
+                    </a>
+                </div>
+                <div class="posted-on">
+                    <p class="maqolaText">{{maqolaText}}</p>
+                </div>
+                <div class="maqolaTanlangan">
+                    {{!-- <form action="/card/add" method="POST">
+                        <input type="text" value="{{id}}" />
+                        <button></button>
+                        <i class="fas fa-heart"></i>
+                    </form> --}}
+                    <a href="{{!-- /tanlangan/{{id}} --}}#"><i class="far fa-heart"></i></a>
+                </div>
+                <h5 class="categoryIdTitle">{{categoryId.categoryTitle}}</h5>
+
+            </div>
+
+        </div>
+        {{/each}}
+        {{/if}}
+    </div>
+    <div class="col-4 col-md-2 before">
+        {{!-- {{>tanlangan}} --}}
+        <div class="tanlangan">
+            <h5 class="maqolalarTitle margin">Mualiflar</h5>
+            {{#each category}}
+            <p class=" maqolalarNomi ">{{categoryTitle}}</p>
+            {{/each}}
+        </div>
+        <div class="yangi">
+            <h5 class="maqolalarTitle margin">Yangi maqolalar</h5>
+            <ul>
+                {{#each maqola}}
+                <li><a href="/maqolaView/{{id}}" class="maqola_link">{{maqolaTitle}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
